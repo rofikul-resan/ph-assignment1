@@ -77,6 +77,36 @@ main{
     margin: 10px 20px;
 }
 
+/* plan section style start */
+
+
+.plan-title{
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.plan ul{
+    display: flex;
+    justify-content: space-around;
+}
+.plan li{
+    list-style: none;
+    text-align: center;
+}
+.plan li img {
+    height: 75px;
+}
+.plan-name{
+    font-size: 25px ;
+    margin: 13px 0;
+    font-weight: 700;
+}
+.plan-work{
+    color: #737272;
+    font-size: 17px;
+    font-weight: 500;
+}
 
 
 
