@@ -186,6 +186,58 @@ footer h2{
     margin-bottom: 20px;
 }
 
+/*      new section calender add          */
 
 
+.calender-sect{
+    display: flex;
+    justify-content: space-around;
+}
+
+.calender table{
+    border: 2px solid #444;
+    border-collapse: collapse;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.calender th{
+    background: #757575;
+    color: #fff;
+}
+.calender td, th{
+    border: 2px solid #444;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.calender td:hover {
+    color: #fff;
+    background: rgb(75, 64, 64);
+
+}
+.calender caption{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.note-content{
+    margin-top: 60px;
+}
+.note-content h2{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+}
+#note-box{
+    margin-top: 60px;
+    margin-bottom: 25px;
+    width: 400px;
+    height: 175px;
+    display: block;
+    resize: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    color: #757575;
+}
 
